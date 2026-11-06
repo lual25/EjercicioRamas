@@ -1,7 +1,9 @@
 def calcular_total(precio: float, cantidad: int) -> float:
     """Calcula el total base de una compra."""
     subtotal = precio * cantidad
-    return subtotal
+    total_desc = subtotal * 0.1
+    total = subtotal - total_desc
+    return total
 
 
 def main():
