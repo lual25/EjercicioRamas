@@ -9,7 +9,7 @@ def main():
     precio = 100.0
     cantidad = 2
     total = calcular_total(precio, cantidad)
-    print(f"Total a pagar: ${total:.2f}")
+    print(f"total a pagar: ${total:.2f}")
 
 
 if __name__ == "__main__":
